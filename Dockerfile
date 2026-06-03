@@ -4,6 +4,7 @@ FROM python:3.10-slim
 # Указываем рабочую папку внутри контейнера
 WORKDIR /app
 
+
 # Копируем список зависимостей
 COPY requirements.txt .
 
