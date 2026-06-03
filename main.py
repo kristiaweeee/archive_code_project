@@ -128,7 +128,7 @@ def get_file_structure(file_id: int, db: Session = Depends(get_db)):
         "structure": elements
     }
 
-# --- ФРОНТЕНД ---
+# ФРОНТЕНД 
 
 html_template = """
 <!DOCTYPE html>
