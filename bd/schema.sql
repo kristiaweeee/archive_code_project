@@ -22,3 +22,4 @@ CREATE TABLE IF NOT EXISTS code_elements (
 -- 3. Создание индексов для оптимизации поиска в FastAPI
 CREATE INDEX IF NOT EXISTS idx_elements_name ON code_elements(name);
 CREATE INDEX IF NOT EXISTS idx_elements_type ON code_elements(type);
+
