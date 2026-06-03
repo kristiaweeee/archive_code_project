@@ -1,3 +1,2 @@
 # archive_code_project
-введение
-123
+docker compose up --build
